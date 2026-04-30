@@ -1,0 +1,9 @@
+{
+  "name": "autonovel-questionnaire",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "python3 -m pytest test_questionnaire.py -q && node --check api/submit.js"
+  }
+}
